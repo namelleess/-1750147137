@@ -229,8 +229,7 @@
         },
         "footer": {
             "copyright": "Paf Casino"
-        },
-        "seoId": null
+        }
     },
     "vi": {
         "styles": {
@@ -462,20 +461,18 @@
         },
         "footer": {
             "copyright": "Paf Casino"
-        },
-        "seoId": null
+        }
     },
-    "langs": {
-        "0": {
+    "langs": [
+        {
             "code": "en",
             "name": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439",
             "isDefault": true
         },
-        "1": {
+        {
             "code": "vi",
             "name": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0439",
             "isDefault": false
-        },
-        "seoId": null
-    }
+        }
+    ]
 }

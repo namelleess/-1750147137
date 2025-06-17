@@ -222,21 +222,21 @@ body.overflow {
 }
 
 :root {
-  --accent-font: {{#styles.primaryFont.isCustom}}'{{styles.primaryFont.label}}', {{/styles.primaryFont.isCustom}}'{{styles.primaryFont.value}}', sans-serif;
-  --base-font: {{#styles.baseFont.isCustom}}'{{styles.baseFont.label}}', {{/styles.baseFont.isCustom}}'{{styles.baseFont.value}}', sans-serif;
+  --accent-font: 'Inter', sans-serif;
+  --base-font: 'Roboto', sans-serif;
 
-  --bg: {{styles.bg}};
+  --bg: #86c507;
 
-  --primary: {{styles.primary}};
-  --primary-text: {{styles.primary-text}};
+  --primary: #25ac61;
+  --primary-text: #222829;
 
-  --primary-light: {{styles.primary-light}};
-  --primary-light-text: {{styles.primary-light-text}};
+  --primary-light: #77d09f;
+  --primary-light-text: #deeadf;
 
-  --secondary: {{styles.secondary}};
-  --secondary-text: {{styles.secondary-text}};
+  --secondary: #fb333d;
+  --secondary-text: #ffffff;
 
-  --table-head: {{styles.table-head}};
+  --table-head: #25ac61;
 
   --bg-light: var(--primary);
   --main-bg: var(--bg);
@@ -729,7 +729,7 @@ body.overflow {
   width: 100%;
   margin: 0 auto;
   padding: 8.53125rem 0 8.75rem;
-  background: url("{{{hero.image}}}") right 10.5rem top 8.5rem /
+  background: url("https://paf-casino-online.com/images/hero-group.webp") right 10.5rem top 8.5rem /
     auto 63% no-repeat;
 }
 .heroBlock {
@@ -778,7 +778,7 @@ body.overflow {
 @media (max-width: 85rem) {
   .hero {
     padding: 8.53125rem 0 8.75rem;
-    background: url("{{{hero.image}}}") right 1rem top 10rem /
+    background: url("https://paf-casino-online.com/images/hero-group.webp") right 1rem top 10rem /
       auto 55% no-repeat;
   }
   .heroTextBonus {
@@ -788,7 +788,7 @@ body.overflow {
 @media (max-width: 64rem) {
   .hero {
     padding: 8.53125rem 0 8.75rem;
-    background: url("{{{hero.image}}}") right 1rem top 10rem /
+    background: url("https://paf-casino-online.com/images/hero-group.webp") right 1rem top 10rem /
       auto 50% no-repeat;
   }
   .heroGroup {
@@ -809,7 +809,7 @@ body.overflow {
 @media (max-width: 58.125rem) {
   .hero {
     padding: 8.53125rem 0 8.75rem;
-    background: url("{{{hero.image}}}") right 1rem top 10rem /
+    background: url("https://paf-casino-online.com/images/hero-group.webp") right 1rem top 10rem /
       auto 45% no-repeat;
   }
   .heroTextBonus {
@@ -827,7 +827,7 @@ body.overflow {
   }
   .hero {
     padding: 24.09375rem 0 6.75rem;
-    background: url("{{{hero.image}}}") center top 6.5rem / auto
+    background: url("https://paf-casino-online.com/images/hero-group.webp") center top 6.5rem / auto
       41% no-repeat;
   }
   .heroUnder {
@@ -889,7 +889,7 @@ body.overflow {
   }
   .hero {
     padding: 24.09375rem 0 6.75rem;
-    background: url("{{{hero.mobileImage}}}") center top 6.5rem / auto
+    background: url("https://paf-casino-online.com/images/hero-mobile.webp") center top 6.5rem / auto
       41% no-repeat;
   }
   .heroBlock {
@@ -904,7 +904,7 @@ body.overflow {
 @media (max-width: 34.375rem) {
   .hero {
     padding: 24.75rem 0 6rem;
-    background: url("{{{hero.mobileImage}}}") center top 9.5rem / auto
+    background: url("https://paf-casino-online.com/images/hero-mobile.webp") center top 9.5rem / auto
       36% no-repeat;
   }
   .heroText {
@@ -919,7 +919,7 @@ body.overflow {
 @media (max-width: 25.875rem) {
   .hero {
     padding: 25rem 0 5rem;
-    background: url("{{{hero.mobileImage}}}") center top 9.2rem / auto
+    background: url("https://paf-casino-online.com/images/hero-mobile.webp") center top 9.2rem / auto
       35% no-repeat;
   }
   .heroGroup {
@@ -943,7 +943,7 @@ body.overflow {
 @media (max-width: 23.4375rem) {
   .hero {
     padding: 15rem 0 3rem;
-    background: url("{{{hero.mobileImage}}}") center top 6.5rem / auto
+    background: url("https://paf-casino-online.com/images/hero-mobile.webp") center top 6.5rem / auto
       31% no-repeat;
   }
   .heroGroup {
