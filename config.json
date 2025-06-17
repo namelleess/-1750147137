@@ -91,6 +91,9 @@
                 ],
                 "description2": "Second paragraph of history",
                 "image": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2FMacBook-Pro.b62d8565.webp&w=750&q=75",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
                 "imageAlt": "History",
                 "description3": "Third paragraph of history"
             },
@@ -145,6 +148,9 @@
             "title": "Mobile Application",
             "description1": "Application description",
             "image": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile-app.5de21383.webp&w=384&q=75",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
             "imageAlt": "Mobile Application"
         },
         "idioma": {
@@ -191,6 +197,9 @@
             ],
             "description2": "Support description 2",
             "image": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2Fsupport.cb9afcc0.webp&w=640&q=75",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
             "imageAlt": "Support"
         },
         "bonuses": {
@@ -323,6 +332,9 @@
                 ],
                 "description2": "Second paragraph of history",
                 "image": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2FMacBook-Pro.b62d8565.webp&w=750&q=75",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
                 "imageAlt": "History",
                 "description3": "Third paragraph of history"
             },
@@ -377,6 +389,9 @@
             "title": "Mobile Application",
             "description1": "Application description",
             "image": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile-app.5de21383.webp&w=384&q=75",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
             "imageAlt": "Mobile Application"
         },
         "idioma": {
@@ -423,6 +438,9 @@
             ],
             "description2": "Support description 2",
             "image": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2Fsupport.cb9afcc0.webp&w=640&q=75",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
             "imageAlt": "Support"
         },
         "bonuses": {

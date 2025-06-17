@@ -1605,6 +1605,8 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
 .advantagesText {
   font-size: 1.5rem;
   line-height: 1.17;
+  max-width: 90%;
+  word-wrap: break-word;
 }
 .advantagesLink {
   display: block;
@@ -2040,14 +2042,15 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
 .connectItem,
 .historyItem,
 .supportItem {
+  word-wrap: break-word;
   list-style: disc inside;
 }
 .historyImage {
   position: absolute;
-  top: 9.5rem;
-  left: -3rem;
-  max-width: 133%;
-  width: 133%;
+  top: calc(9.5rem + 0rem);
+  left: calc(-3rem + 0rem);
+  max-width: calc(133% + 0%);
+  width: calc(133% + 0%);
   height: auto;
 }
 .historySecondTitle {
@@ -2056,10 +2059,10 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
 @media (max-width: 88.125rem) {
   .historyImage {
     position: absolute;
-    top: 5rem;
-    left: -4rem;
-    max-width: 115%;
-    width: 115%;
+    top: calc(5rem + 0rem);
+    left: calc(-4rem + 0rem);
+    max-width: calc(115% + 0%);
+    width: calc(115% + 0%);
     height: auto;
   }
 }
@@ -2666,28 +2669,29 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
 }
 .applicationMobilePhone {
   position: absolute;
-  top: -10rem;
-  right: 0;
-  width: 52%;
-  max-width: 52%;
+
+  top: calc(-10rem + 0rem);
+  right: calc(0rem + 0rem);
+  width: calc(52% + 0%);
+  max-width: calc(52% + 0%);
   height: auto;
 }
 @media (max-width: 83.125rem) {
   .applicationMobilePhone {
     position: absolute;
-    top: -10rem;
-    right: 0;
-    width: 52%;
-    max-width: 52%;
+    top: calc(-10rem + 0rem);
+    right: calc(0rem + 0rem);
+    width: calc(52% + 0%);
+    max-width: calc(52% + 0%);
     height: auto;
   }
 }
 @media (max-width: 64rem) {
   .applicationMobilePhone {
-    width: 70%;
-    max-width: 70%;
-    top: -12rem;
-    right: 0;
+    top: calc(-12rem + 0rem);
+    right: calc(0rem + 0rem);
+    width: calc(70% + 0%);
+    max-width: calc(70% + 0%);
   }
   .idiomas {
     background-image: none;
@@ -2725,12 +2729,13 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
   }
   .applicationMobilePhone {
     position: absolute;
-    top: -20rem;
-    right: -1rem;
     left: auto;
-    max-width: 27%;
-    width: 27%;
     height: auto;
+
+    top: calc(-20rem + 0rem);
+    right: calc(-1rem + 0rem);
+    width: calc(27% + 0%);
+    max-width: calc(27% + 0%);
   }
   .applicationColumn {
     max-width: 80%;
@@ -2768,15 +2773,16 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
   }
   .applicationMobilePhone {
     position: static;
-    top: -13rem;
-    right: -3rem;
     left: auto;
     margin-top: 0;
     margin-bottom: 1.5rem;
     margin-left: 0;
-    max-width: 37%;
-    width: 37%;
     height: auto;
+
+    top: calc(-13rem + 0rem);
+    right: calc(-3rem + 0rem);
+    width: calc(37% + 0%);
+    max-width: calc(37% + 0%);
   }
 }
 @media (max-width: 35rem) {
@@ -2819,13 +2825,14 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
   .applicationMobilePhone {
     margin-top: 2rem;
     position: static;
-    top: -15rem;
-    right: 0;
     transform: rotate(0);
-    max-width: 65%;
-    width: 65%;
     height: auto;
     margin-left: unset;
+
+    top: calc(-15rem + 0rem);
+    right: calc(0rem + 0rem);
+    width: calc(65% + 0%);
+    max-width: calc(65% + 0%);
   }
   .applicationStoreGroup {
     position: static;
@@ -3052,20 +3059,22 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
 }
 .supportImage {
   position: absolute;
-  top: -7rem;
-  right: -6rem;
-  max-width: 114.5%;
-  width: 114.5%;
+
+  top: calc(-7rem + 0rem);
+  right: calc(-6rem + 0rem);
+  max-width: calc(114.5% + 0%);
+  width: calc(114.5% + 0%);
   height: auto;
 }
 @media (max-width: 85rem) {
   .supportImage {
     position: absolute;
-    top: -7rem;
-    right: 0;
-    max-width: 100%;
-    width: 100%;
     height: auto;
+
+    top: calc(-7rem + 0rem);
+    right: calc(0rem + 0rem);
+    max-width: calc(100% + 0%);
+    width: calc(100% + 0%);
   }
 }
 .prosAndConsBlock {
@@ -3385,8 +3394,8 @@ div:has(.moreInfoInput:checked + .moreInfoLabel) ~ .bonusDetailsInfo {
     line-height: 1.028;
   }
   .applicationMobilePhone {
-    max-width: 75%;
-    width: 75%;
+    width: calc(75% + 0%);
+    max-width: calc(75% + 0%);
   }
   .idiomasTitle {
     font-size: 1.2rem;

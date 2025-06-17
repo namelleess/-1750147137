@@ -1,6 +1,6 @@
 {
   "placeholders": {
-    "https://api.adkey-seo.com/api/website/get-website/": {
+    "https://api.adkey-seo.com/api/website/get-website/991": {
       "website": {
         "id": 777,
         "link": "https:\/\/paf-casino-online.com",
@@ -345,7 +345,7 @@
         "image": "AztecMagicDeluxe-171846254_1668560441.webp"
       }
     ],
-    "https://api.adkey-seo.com/api/website/get-payments/": [
+    "https://api.adkey-seo.com/api/website/get-payments/991": [
       {
         "payment_id": 8,
         "commission": "Free",
@@ -974,6 +974,25 @@
               "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FMacBook-Pro.b62d8565.webp&w=750&q=75"
             },
             {
+              "id": "imageSizeModifier",
+              "name": "History Image Scale Modifier",
+              "type": "number",
+              "description": "Size modifier of support image",
+              "default": 0
+            },
+            {
+              "id": "imageYModifier",
+              "name": "History Image Y Position Modifier",
+              "type": "number",
+              "default": 0
+            },
+            {
+              "id": "imageXModifier",
+              "name": "History Image X Position Modifier",
+              "type": "number",
+              "default": 0
+            },
+            {
               "id": "imageAlt",
               "name": "History Image Alt",
               "type": "text",
@@ -1252,6 +1271,25 @@
           "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile-app.5de21383.webp&w=384&q=75"
         },
         {
+          "id": "imageSizeModifier",
+          "name": "Application Image Scale Modifier",
+          "type": "number",
+          "description": "Application modifier of support image",
+          "default": 0
+        },
+        {
+          "id": "imageYModifier",
+          "name": "Application Image Y Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "id": "imageXModifier",
+          "name": "Application Image X Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
           "id": "imageAlt",
           "name": "Application Image Alt",
           "type": "text",
@@ -1474,6 +1512,25 @@
           "type": "image",
           "description": "URL for support image",
           "default": "https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsupport.cb9afcc0.webp&w=640&q=75"
+        },
+        {
+          "id": "imageSizeModifier",
+          "name": "Support Image Scale Modifier",
+          "type": "number",
+          "description": "Support modifier of support image",
+          "default": 0
+        },
+        {
+          "id": "imageYModifier",
+          "name": "Support Image Y Position Modifier",
+          "type": "number",
+          "default": 0
+        },
+        {
+          "id": "imageXModifier",
+          "name": "Support Image X Position Modifier",
+          "type": "number",
+          "default": 0
         },
         {
           "id": "imageAlt",
